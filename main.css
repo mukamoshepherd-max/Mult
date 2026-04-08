@@ -1,0 +1,652 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+td {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+
+}
+
+th {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+form {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	}
+
+#txtboxy{
+margin-left:0px;
+float: left;
+
+
+}
+
+input1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	margin-left:100px;
+
+	text-align:20px;
+	border-radius :5px;
+	
+
+float: right;
+       
+	
+}
+
+textarea {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #CCCCCC;
+
+width:100%;
+rows:8;
+	
+}
+li{
+font-size: 16px;
+
+}
+input{
+
+border-radius: 10px 10px 10px 10px;
+
+background-color: #CCCCCC;
+}
+input[type =text]{
+
+width:100%;
+
+}
+
+
+
+table{
+width:100%;
+
+}
+
+#table1{
+margin:auto;
+
+}
+#headerw{
+height:80px;
+background-color:yellow;
+}
+
+#log{ width: 100px;
+height:80px;
+background-color:#FF0000;
+
+
+}
+
+#pic{ position:fixed;
+width:30px;
+height:30px;
+
+
+
+
+}
+img{ 
+width:190px;
+height:180px;
+
+
+
+
+}
+
+
+
+#texth{ height:80px;
+
+margin:80px
+background-color:#00FFFF;
+
+
+}
+#fun{ height:400px;
+background-color:#999999;
+
+
+}
+#ylew{ 
+background-color:red;
+margin-top:5px;
+height:20px;
+margin-bottom:200px;
+
+
+
+}
+
+#nd{ height:50px;
+background-color:yellow;
+
+
+}
+
+#menu1 {
+background-color:white;
+margin: 10px;
+
+
+
+}
+  #x{
+ border:#FFFFFF;
+ border:groove;
+ background:#FF00FF;
+ margin-radius : 5px;
+ 
+
+ width: 300px;
+ margin-top:10 px;
+ padding:inherit;
+  float:left
+ }
+
+
+  #x1{
+ border:#FFFFFF;
+ border:groove;
+ background:#FF00FF;
+ margin-radius : 5px;
+ margin-left: 20px;
+
+ width: 600px;
+ margin-top:10 px;
+ padding:inherit;
+  float:left
+ }
+ #xn{
+ border:#FFFFFF;
+ border:groove;
+ background:#FF00FF;
+ margin-radius : 5px;
+ margin-left: 40px;
+
+ width: 300px;
+ margin-top:10 px;
+ padding:inherit;
+  float:right;
+ }
+
+#back{ background-image: url(galary/2348146.jpg) ;
+
+width:100px
+
+
+}
+#backe{
+background:blue;
+
+
+}
+#sheppie{
+background:green;
+width:1500px;
+height:90px
+
+
+
+}
+.sub{ margin-left: 20px;
+
+}
+#sandie{
+background:  yellow;
+width:1500px;
+height:50px
+
+
+
+}
+
+#lee{
+background:  white;
+margin: 20px
+width:1000px;
+height:300px;
+
+
+
+}
+#looo{
+background: green;
+width:1500px;
+height:10px
+
+
+
+}
+
+
+#kk{ margin-right: 400px;
+margin-left: 800px;
+margin-top :200;
+
+}
+select {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+ul {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	list-style-type: circle;
+	list-style-position: outside;
+}
+
+li {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+ol {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	list-style-type: upper-alpha;
+	list-style-position: outside;
+}
+
+.small {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+}
+
+.big {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+.bodystyle {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+.box1 {
+	padding: 3px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #CCCCCC #666666 #666666 #CCCCCC;
+}
+
+.box2 {
+	border-width: 3px;
+	border-style: solid;
+	padding: 5px;
+}
+
+/* CSS Document */
+
+#shipbkgd
+{ background-color:lld;
+border:thick ;
+opacity:10;
+
+border-bottom:double;
+margin: 5px;
+
+border-top-color:#00FF33;
+height: inherit;
+
+
+}
+.main { 
+background-color:black;
+border-top-style:solid;
+border-top:grey;
+border-top-width:0px;
+border-collapse:collapse;
+Border-radius: 0px 0px 10px 10px;
+text-transform:uppercase;
+position:static
+
+
+
+}
+a{
+Border-radius: 3px 3px 3px 3px;
+
+}
+#header
+{
+background-color:#FFFFFF;
+Border-radius: 20px 20px 0px 0px;
+color:#FF9966;
+
+}
+#sheader
+{
+background-color:#FFFFFF;
+Border-radius: 20px 20px 20px 20px;
+color:#FF9966;
+
+}
+#headerimg {
+display:block;
+width:180px;
+height:190px;
+position:static;
+display:flex;
+
+
+
+}
+
+#headerimg2 {
+display:block;
+width:300px;
+height:300px;
+position:static;
+display:flex;
+
+
+
+}
+#mainb{ 
+class="style3";
+background-color:gold;
+margin-left: 10px;
+margin-right:10px;
+float : left;
+width: 250px;
+
+}
+#mainbg11{ background-color:#F6E8B1;
+margin-left: 5px;
+margin-right:5px;
+
+float : left;
+width: 100%;
+text-transform:uppercase;
+
+}
+
+
+#mainbg{ 
+background-color:white;
+float : left;
+width: 100%;
+text-transform:uppercase;
+}
+
+#mainb1{ 
+background-color:rgb(300,300,200);
+margin-left: 20px;
+
+float:left;
+width : 300px;
+padding: 3px;
+
+
+}
+
+#mainb2{ background-color:white;
+margin-left: 20px;
+
+float:left;
+width : 600px;
+padding: 3px;
+
+
+}
+
+#mainb3{ background-color:rgb(300,300,200);
+margin-left: 20px;
+
+float:left;
+width : 300px;
+padding: 3px;
+
+}
+
+#mid1{  background-color:white;
+margin-bottom-radious: 5px;
+text-transform:uppercase;
+
+
+}
+#notice{ margin-left:70px;
+background-color:#CCCCCC;
+width: 2%;
+text-transform:uppercase;
+border-radius: 1px 1px 1px 10px;
+
+}
+#vision{ margin-right:200px;
+background-color: #CCCCCC;
+float:left;
+
+
+
+}
+#footer{ 
+background-color:white;
+float : left;
+width: 100%;
+text-transform:uppercase;
+}
+
+#mid12{  background-color:red;
+margin-bottom-radious: 5px;
+Border-radius: 0px 0px 20px 20px;
+
+
+
+
+}
+body{
+background-color: #FF9966;
+}
+#footerg{
+ background-color:rgb(300,300,200);
+float : left;
+width: 1000px;
+text-transform:uppercase;
+
+}
+#footerz1{ 
+background-color:white;
+float : left;
+width: 50%;
+text-transform:uppercase;
+
+
+}
+#footerz{ 
+background-color:white;
+float : left;
+width: 50%;
+
+text-transform:uppercase;
+
+
+}
+#footer1{ 
+class="style3"
+background-color:#FF9966;
+float : left;
+width: 100%;
+text-transform:uppercase;
+
+
+
+}
+#footer2{ 
+background-color:red;
+float : right;
+width: 28%;
+text-transform:uppercase;
+
+
+}
+.main input{
+background-color:#00FF00;
+margin-left:50px
+position: absolute;
+
+
+
+
+
+}
+
+#scroller{
+overflow:scroll;
+
+
+
+
+}
+
+#mid{ 
+background-color:green;
+margin-bottom-radious: 0px;
+height:relative;
+text-transform:capitalize;
+
+font-size:20px;
+position:static;
+
+
+
+
+}
+li {
+margin-left:20px;
+
+}
+.kkkk{
+border-radius: 10px;
+margin-left:50px;
+
+
+
+}
+
+
+p{ font-size:36px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-stretch:ultra-condensed;
+font-variant:small-caps;
+
+
+}
+
+.ship
+{ background-color: #777;
+  margin-bottom-radious: 5px;
+height:30px;
+text-transform:capitalize;
+Border-radius: 20px 20px 0px 0px;
+font-size:20px;
+
+color:white;
+
+position:static;
+
+
+
+
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+}

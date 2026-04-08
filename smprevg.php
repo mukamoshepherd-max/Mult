@@ -1,0 +1,35 @@
+
+<?php
+include ("hchecklog.php");
+include ("connect.php");
+
+$id = $_GET['id'];
+
+
+ 
+ 		$qry=mysqli_query($connect,"select * from personal_details where id ='$id' ") or die(mysqli_error($connect));
+	$rp=mysqli_fetch_array($qry);
+			$count=mysqli_num_rows($qry);
+//$fetch1=mysqli_fetch_array($query);
+								
+$_SESSION['familyid']=$rp['family_id'];
+
+$_SESSION['tid']=$rp['father_id'];
+
+$_SESSION['gid']=$rp['generation_id'];
+			
+$_SESSION['fatherid']=$rp['father_id'];		
+
+			$_SESSION['logdate'] = date("m/d/Y H:i:s");
+			
+			$_SESSION['log'] =true;
+
+			header('location:smheritage');
+			
+			
+		
+			
+			
+	
+
+?>
